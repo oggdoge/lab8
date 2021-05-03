@@ -1,5 +1,5 @@
 #introduction {
-	background: linear-gradient(rgba(100, 181, 246, 1), rgba(0,0,0,0.8)), url('img/background.jpeg') 0% 0%/cover
+	background: linear-gradient(rgba(100, 181, 246, 1), rgba(0,0,0,0.8)), url('img/background.jpeg') 0% 0%/cover;
 }
 .fill-viewport {
 	min-height: 100vh;
@@ -12,4 +12,12 @@
 }
 .fill-80-viewport {
 	min-height: 80vh;
+}
+#info-3 {
+	background: linear-gradient(rgba(100, 181, 246, 0.3), rgba(0,0,0,0.8)), url(img/foto.jpeg) 0% 0%/cover;
+}
+@media screen and (min-width: 768px) {
+	.basis-50-md {
+		flex-basis: 50%;
+	}
 }
